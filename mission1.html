@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autism</title>
+    <link rel="stylesheet" href="mission1.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- This is for the naivgation bar -->
+      <nav>
+        <ul>
+          <a href="aboutautism.html">
+            <li class="btn nav-link">About Autism</li>
+          </a>
+          <li class="btn nav-link">Contact us</li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- This is the main content -->
+    <main class="section">
+      <!-- This is the left section -->
+
+      <section id="left">
+        <!-- CSS Transition -->
+        <div>
+          <h1>Autism.</h1>
+        </div>
+
+        <!-- CSS animation -->
+        <h2>
+          Sometimes the things that make us<br />different, are the things
+          <br />that make us <span class="animation"><u>strong.</u></span>
+        </h2>
+
+        <p>"I am different, not less." - Temple Grandin</p>
+      </section>
+
+      <section id="right">
+        <img
+          src="https://t3.ftcdn.net/jpg/17/39/82/02/360_F_1739820266_dyKNlVCtVy1IbVfr9H0rQODaCQNtiKf1.jpg"
+          alt="Autism"
+        />
+      </section>
+    </main>
+
+    <footer>
+      <!-- The email contact form -->
+      <form action="/submit" method="post" autocomplete="on">
+        <label for="name"><b>Name:</b></label>
+        <input type="text" id="name" name="name" required /><br />
+        <label for="email"><b>Email:</b></label>
+        <input for="email" id="email" name="email" required /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </footer>
+  </body>
+</html>

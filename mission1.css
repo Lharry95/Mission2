@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+/* For the header */
+header {
+  justify-content: row;
+  height: 50px;
+}
+
+body {
+  font-family: "Times New Roman";
+  background-color: rgb(89, 115, 132);
+  flex-wrap: wrap;
+}
+
+/* For the navigation bar */
+nav > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 50px 100px;
+  color: white;
+}
+
+.nav-link {
+  border: rgb(51, 67, 77);
+  list-style: none;
+  padding: 5px;
+  margin: 2px;
+  border: 1px rgb(55, 163, 235);
+}
+
+/* For the buttons in the navbar */
+.btn {
+  background-color: rgb(35, 79, 108);
+}
+
+.btn:hover {
+  background-color: rgb(224, 161, 210);
+}
+
+/* The link for about Autism page */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* the main display */
+main {
+  display: flex;
+  text-align: center;
+}
+span {
+  color: pink;
+  font-size: xx-large;
+}
+
+#left {
+  flex-basis: 30%;
+  width: 45%;
+  height: 500px;
+  margin: 5px;
+}
+
+img {
+  flex-wrap: wrap;
+  width: 500px;
+  height: 300px;
+  justify-content: flex-end;
+}
+
+#right {
+  flex-basis: 70%;
+  width: 45%;
+  margin: 5px;
+}
+
+/* The email contact form */
+form {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+/* CSS transition/animation */
+
+div {
+  /* font-size: xx-large;
+    width: 400x;
+    height: 200px;
+    color: pink; */
+  transition: width 5s, height 5s;
+  transition-delay: 1s;
+  transition-timing-function: ease-out;
+}
+
+div:hover {
+  font-size: xx-large;
+  width: 400x;
+  height: 200px;
+  color: pink;
+}
+
+@keyframes move {
+  from {
+    color: black;
+  }
+  to {
+    color: pink;
+  }
+  from {
+    font-size: large;
+  }
+  to {
+    font-size: xx-large;
+  }
+}
+
+.animation {
+  animation-name: move;
+  animation-duration: 5s;
+}
+
+/* TO make nav bar responsive */
+
+@media screen and (max-width: 768px) {
+  .nav-link,
+  .section {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-link {
+    font-size: 12px;
+  }
+}

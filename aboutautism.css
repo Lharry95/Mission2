@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(89, 115, 132);
+}
+
+h1{
+    display:flex;
+    font-family: "Times new roman";
+    justify-content: center;
+    color: white;
+}
+
+
+p{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
