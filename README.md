@@ -5,10 +5,21 @@ This is an initial project completed for an assignment during my study. We were 
 I created a webpage with CSS styling which includes a picture that lights up when you click it.
 
 
-### Built With
-
-
-* HTML
+## Features
+ 
+- **Semantic HTML Structure**: Proper use of HTML5 semantic elements (<header>, <nav>, <section>, <footer>)
+- **CSS Styling**: Comprehensive styling including flexbox layouts, fonts, colours, and spacing
+- **Responsive Design**: Mobile-first approach with media queries for different screen sizes
+- **Interactive Elements**: Hover effects, transitions, and animations for enhanced user experience
+- **Animations**: CSS animations and transitions for smooth visual feedback
+- **Contact Form**: Functional form demonstrating HTML form elements
+ 
+## Technologies Used
+ 
+- HTML5
+- CSS3
+- Flexbox
+- Responsive Design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -21,18 +32,24 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/Lharry95/Mission2.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
+1. Clone the repository:
+```bash
+git clone https://github.com/Lharry95/Mission2.git
+cd Mission2
+```
+ 
+2. Open in browser:
+```bash
+# Simply open index.html in your preferred web browser
+open index.html
+```
+
+
 3. Change git remote url to avoid accidental pushes to base project
-   ```sh
+   ```bash
    git remote set-url origin Lharry95/Mission2
    git remote -v # confirm the changes
+
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
