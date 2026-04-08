@@ -7,7 +7,7 @@ I created a webpage with CSS styling which includes a picture that lights up whe
 
 ## Features
  
-- **Semantic HTML Structure**: Proper use of HTML5 semantic elements (<header>, <nav>, <section>, <footer>)
+- **Semantic HTML Structure**: Proper use of HTML5 semantic elements (header, nav, section, footer)
 - **CSS Styling**: Comprehensive styling including flexbox layouts, fonts, colours, and spacing
 - **Responsive Design**: Mobile-first approach with media queries for different screen sizes
 - **Interactive Elements**: Hover effects, transitions, and animations for enhanced user experience
